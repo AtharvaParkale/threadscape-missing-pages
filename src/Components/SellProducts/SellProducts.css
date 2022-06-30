@@ -1,0 +1,179 @@
+.sellProducts_image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color:lightblue;
+    width: 100%;
+    /* border: 2px solid red; */
+    height: 91vh;
+}
+.sellProducts_image{
+    /* font-family: 'Montserrat', sans-serif; */
+    font-weight: 900;
+}
+.sellProducts_bottomNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 9vh;
+    /* border: 2px solid black; */
+    position: sticky;
+    top: 0;
+}
+.sellProducts_bottomNav_tab1{
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sellProducts_bottomNav a{
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.sellProducts_overview{
+    height: 100vh;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color:lightgoldenrodyellow;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+.sellProducts_overview h1{
+    /* border: 2px solid black; */
+    margin-top: 13vh;
+}
+.sellProducts_overview_secHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* border: 2px solid red; */
+    height: 70vh;
+    width: 90%;
+}
+.sellProducts_overview_sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 100%;
+}
+.sellProducts_overview_sec p{
+    width: 80%;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 19px;
+}
+.sellProducts_overview_sec img{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.sellProducts_works{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: 100%;
+}
+.sellProducts_works h1{
+    margin-top: 20vh;
+    margin-bottom: 7vh;
+}
+.sellProducts_logo_holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 70%;
+}
+.sellProducts_logo_card{
+    /* border: 2px solid black; */
+    height: 70%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.sellProducts_logo_card p{
+    text-align: center;
+    font-weight: 600;
+}
+.sellProducts_logo_card_image{
+    border: 2px solid black;
+    width: 100%;
+    height: 70%;
+    border-radius: 100%;
+}
+.sellProducts_form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+.sellProducts_form h1{
+    /* border: 2px solid black; */
+    margin-top: 15vh;
+}
+.sellProducts_formholder{
+    /* border: 2px solid black; */
+    width: 70%;
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.sellProducts_inputholder{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sellProducts_inputholder input{
+    width: 40%;
+    height: 6vh;
+    border-radius: 7px;
+    padding-left:2vh;
+    font-weight: 500;
+    font-size: 18px;
+    border: 3px solid #808080bd;
+}
+.sellProducts_formholder button{
+    width: 72%;
+    height: 6vh;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color: orange;
+}
+.link_pages{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 7vh;
+}
