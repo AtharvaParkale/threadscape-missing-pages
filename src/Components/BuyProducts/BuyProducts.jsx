@@ -2,6 +2,8 @@ import React from 'react'
 import './BuysProducts.css'
 import overview_img from '../assets/overview_image.jpg'
 import { Link } from "react-router-dom";
+// import HowItWorks from '../HowItWorks/HowItWorks';
+// import AboutUs from '../AboutUs/AboutUs'
 
 function BuyProducts() {
     return (
@@ -93,7 +95,11 @@ function BuyProducts() {
                 <p><Link to='/buyservices'>Buy Services</Link></p>
                 <p><Link to='/sellproducts'>Sell Products</Link></p>
                 <p><Link to='/sellservices'>Sell Services</Link></p>
+                <p><Link to='/howitworks'>How it works ?</Link></p>
+                <p><Link to='/aboutus'>About Us</Link></p>
             </div>
+            {/* <HowItWorks/> */}
+            {/* <AboutUs/> */}
 
         </>
     )

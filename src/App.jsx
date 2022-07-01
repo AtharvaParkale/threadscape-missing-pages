@@ -10,6 +10,8 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import HowItWorks from './Components/HowItWorks/HowItWorks';
+import AboutUs from './Components/AboutUs/AboutUs';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="buyservices" element={<BuyServices />} />
         <Route path="sellproducts" element={<SellProducts/>} />
         <Route path="sellservices" element={<SellServices />} />
+        <Route path="howitworks" element={<HowItWorks />} />
+        <Route path="aboutus" element={<AboutUs />} />
         {/* <Route path="invoices" element={<Invoices />} /> */}
       </Routes>
     </Router>

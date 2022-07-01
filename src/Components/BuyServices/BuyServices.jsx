@@ -94,6 +94,8 @@ function BuyServices() {
                 <p><Link to='/buyservices'>Buy Services</Link></p>
                 <p><Link to='/sellproducts'>Sell Products</Link></p>
                 <p><Link to='/sellservices'>Sell Services</Link></p>
+                <p><Link to='/howitworks'>How it works ?</Link></p>
+                <p><Link to='/aboutus'>About Us</Link></p>
             </div>
 
         </>

@@ -177,3 +177,67 @@
     width: 100%;
     height: 7vh;
 }
+
+@media(max-width:500px) {
+    .sellProducts_bottomNav_tab1 {
+        font-size: 16px;
+    }
+
+    .sellProducts_overview_secHolder {
+        flex-direction: column;
+    }
+
+    .sellProducts_overview_sec p {
+        font-size: 14px;
+    }
+
+    .sellProducts_overview h1 {
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+
+    .sellProducts_overview_secHolder {
+        height: 85%;
+    }
+
+    .sellProducts_works h1 {
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+
+    .sellProducts_logo_holder {
+        flex-direction: column;
+        height: 80vh;
+    }
+
+    .sellProducts_logo_card {
+        width: 100%;
+    }
+
+    .sellProducts_logo_card_image {
+        width: 59%;
+    }
+
+    .sellProducts_form h1 {
+        margin-top: 10vh;
+        font-size: 30px;
+    }
+
+    .sellProducts_formholder {
+        width: 95%;
+        height: 77vh;
+    }
+
+    .sellProducts_inputholder {
+        flex-direction: column;
+        width: 100%;
+        height: 24vh;
+    }
+    .sellProducts_inputholder input{
+        width: 70%;
+    }
+    .link_pages{
+        font-size: 13px;
+    }
+  
+}
